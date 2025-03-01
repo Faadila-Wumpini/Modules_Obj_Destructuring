@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obj destructuring & modules</title>
+    <script type = 'text/javascript'>
+    
+        const person = {
+            name: 'Faadila',
+            age: 21
+        };
+
+        function printDetails({name, age}) {
+            console.log('The name is ${name} and they are $(age)');
+
+        }
+
+        printDetails(person)
+    
+        // let {name, age, gender ='unknown'} = person;
+    
+        // console.log(name);
+        // console.log(age);
+        // console.log(gender);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
